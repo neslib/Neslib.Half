@@ -92,6 +92,7 @@ type
     class operator Multiply(const ALeft, ARight: Half): Half; static;
     class operator Divide(const ALeft, ARight: Half): Half; static;
   end;
+  PHalf = ^Half;
 
 type
   { Record helper that provides access to the internals of the Half type. }
